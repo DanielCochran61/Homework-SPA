@@ -4,8 +4,14 @@ const showView = function () {
     $('#update').hide();
     $('#delete').hide();
     $('#view').show();
+
+    render (employeeList)   
 };
 
+const buttonView = document.getElementById("#view");
+button.onclick = function(){
+  
+}
 $('view').on('click', showView);
 
 
