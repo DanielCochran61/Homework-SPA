@@ -1,59 +1,67 @@
+(function () {
+    $('#addPage').hide();
+    $('#verifyPage').hide();
+    $('#updatePage').hide();
+    $('#deletePage').hide();
+    $('#viewPage').show();
+})()
+
 const showView = function () {
-    $('#add').hide();
-    $('#verify').hide();
-    $('#update').hide();
-    $('#delete').hide();
-    $('#view').show();
+    $('#addPage').hide();
+    $('#verifyPage').hide();
+    $('#updatePage').hide();
+    $('#deletePage').hide();
+    $('#viewPage').show();
 
-    render (employeeList)   
+    render(employeeList)
 };
-
-const buttonView = document.getElementById("#view");
-button.onclick = function(){
-  
-}
-$('view').on('click', showView);
+$('#view').on('click', showView);
 
 
 const showAdd = function () {
-    $('#view').hide();
-    $('#verify').hide();
-    $('#update').hide();
-    $('#delete').hide();
-    $('#add').show();
+    $('#viewPage').hide();
+    $('#verifyPage').hide();
+    $('#updatePage').hide();
+    $('#deletePage').hide();
+    $('#addPage').show();
 };
 
-$('add').on('click', showAdd);
+$('#add').on('click', showAdd);
 
 
 const showVerify = function () {
-    $('#add').hide();
-    $('#view').hide();
-    $('#update').hide();
-    $('#delete').hide();
-    $('#Verify').show();
+    $('#addPage').hide();
+    $('#viewPage').hide();
+    $('#updatePage').hide();
+    $('#deletePage').hide();
+    $('#verifyPage').show();
 };
+
+  /*  const verifyFunc = () {
+    if () { return yes }
+    else () { return no }
+}; */
 
 $('verify').on('click', showVerify);
 
 
 const showUpdate = function () {
-    $('#add').hide();
-    $('#verify').hide();
-    $('#view').hide();
-    $('#delete').hide();
-    $('#update').show();
+    $('#addPage').hide();
+    $('#verifyPage').hide();
+    $('#viewPage').hide();
+    $('#deletePage').hide();
+    $('#updatePage').show();
 };
 
 $('update').on('click', showUpdate);
 
 
 const showDelete = function () {
-    $('#add').hide();
-    $('#verify').hide();
-    $('#update').hide();
-    $('#view').hide();
-    $('#delete').show();
+    $('#addPage').hide();
+    $('#verifyPage').hide();
+    $('#updatePage').hide();
+    $('#viewPage').hide();
+    $('#deletePage').show();
 };
 
 $('delete').on('click', showDelete);

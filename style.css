@@ -5,5 +5,41 @@
     text-align: center;
     height: 754px;
     padding: 300px 10px;
+    border: none;
 
 }
+
+#view {
+    background-color: gray;
+    border-color: gray;
+    color: #ffffff;
+}
+
+#add {
+    background-color: gray;
+    border-color: gray;
+    color: #ffffff;
+}
+
+#verify {
+    background-color: gray;
+    border-color: gray;
+    color: #ffffff;
+}
+
+#update {
+    background-color: gray;
+    border-color: gray;
+    color: #ffffff;
+}
+
+#delete {
+    background-color: gray;
+    border-color: gray;
+    color: #ffffff;
+}
+
+employeeList {
+    float: left;
+}
+
