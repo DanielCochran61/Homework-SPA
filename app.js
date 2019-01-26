@@ -37,10 +37,10 @@ const showVerify = function () {
     $('#verifyPage').show();
 };
 
-  /*  const verifyFunc = () {
-    if () { return yes }
-    else () { return no }
-}; */
+const verifyFunc = function () {
+    if (true) {return yes} 
+    else {return no} 
+}; 
 
 $('verify').on('click', showVerify);
 
