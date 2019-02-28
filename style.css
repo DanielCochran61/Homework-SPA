@@ -1,46 +1,27 @@
-.navigation {
-    background-color: gray;
-    color: #ffffff;
-    width: 200px;
+p {
+    width: 500px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+ul {
     text-align: center;
-    height: 754px;
-    padding: 300px 10px;
-    border: none;
-    margin: auto;
-    float: left;
+} 
 
+.col-10 {
+    margin-top: 5px;
 }
 
-#view {
-    background-color: gray;
-    border-color: gray;
-    color: #ffffff;
-}
-
-#add {
-    background-color: gray;
-    border-color: gray;
-    color: #ffffff;
-}
-
-#verify {
-    background-color: gray;
-    border-color: gray;
-    color: #ffffff;
-}
-
-#update {
-    background-color: gray;
-    border-color: gray;
-    color: #ffffff;
-}
-
-#delete {
-    background-color: gray;
-    border-color: gray;
-    color: #ffffff;
-}
-
-section {
+.col-2 {
+    background-color: slategray;
+    color: white;
+    margin-top: 5px;
+    padding-top: 100px;
     text-align: center;
+ 
 }
